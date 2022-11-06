@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity">
+
+    <TextView
+        android:id="@+id/planetnameTv"
+        android:layout_width="166dp"
+        android:layout_height="47dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/acme"
+        android:gravity="center"
+        android:text="Uran"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:translationX="90dp"
+        android:translationY="20dp"
+        app:autoSizeTextType="none"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="70dp" />
+
+    <ImageView
+        android:id="@+id/planetimageIm"
+        android:layout_width="244dp"
+        android:layout_height="220dp"
+        android:clickable="false"
+        android:translationX="-95dp"
+        android:translationY="-70dp"
+        app:srcCompat="@drawable/uran"
+        tools:layout_editor_absoluteX="-66dp"
+        tools:layout_editor_absoluteY="-41dp" />
+
+    <TextView
+        android:id="@+id/infoTv"
+        android:layout_width="370dp"
+        android:layout_height="541dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="27dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="44dp"
+        android:fontFamily="@font/aldrich"
+        android:gravity="center"
+        android:text="Günəşə yaxınlığına görə Günəş sistemindəki üçüncü planet və həyat aşkar olunan yeganə göy cismi. Radiometrik tanışlıq və digər dəlillərə görə Yer 4,5 milyard il əvvəl yaranmışdır. Yerin cazibə qüvvəsi kainatdakı digər cisimlərə, xüsusən də Yerin yeganə təbii peyki olan Aya və Günəşə qarşılıqlı təsir göstərir. Yer 365 gün ərzində Günəş ətrafında öz orbiti boyu hərəkət edir. Bu müddət ərzində Yer öz oxu ətrafında 365 (366) dəfə fırlanır."
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="142dp" />
+</RelativeLayout>

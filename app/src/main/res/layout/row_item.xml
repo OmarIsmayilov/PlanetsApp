@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    app:cardCornerRadius="15dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginEnd="20dp"
+    android:layout_marginStart="20dp"
+    android:layout_marginTop="5dp">
+
+
+    <TextView
+        android:id="@+id/planettitleTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="2dp"
+        android:text="PlanetName"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/planetdescriptionTv"
+        android:layout_width="238dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="34dp"
+        android:text="Description about planet"
+        android:textSize="11dp" />
+
+
+
+
+    <ImageView
+        android:id="@+id/planetimageIv"
+        android:layout_width="100dp"
+        android:translationY="-1dp"
+        android:layout_height="100dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:src="@drawable/earthpng" />
+
+
+</androidx.cardview.widget.CardView>

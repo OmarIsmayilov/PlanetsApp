@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "347588008724",
+    "firebase_url": "https://calculatebmi-ab8d0-default-rtdb.firebaseio.com",
+    "project_id": "calculatebmi-ab8d0",
+    "storage_bucket": "calculatebmi-ab8d0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:347588008724:android:1b4c7dcbdab6ba33344001",
+        "android_client_info": {
+          "package_name": "com.omarismayilov.calculatebmi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "347588008724-vdtnucnd7ov6ikcpkefnc0camkvtpkau.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAn2qD8D93ZH6f4Sm-xlS5ULj-hRMnDILA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "347588008724-vdtnucnd7ov6ikcpkefnc0camkvtpkau.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:347588008724:android:36567c1ae1ffb2b0344001",
+        "android_client_info": {
+          "package_name": "com.omarismayilov.recycleview"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "347588008724-vdtnucnd7ov6ikcpkefnc0camkvtpkau.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAn2qD8D93ZH6f4Sm-xlS5ULj-hRMnDILA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "347588008724-vdtnucnd7ov6ikcpkefnc0camkvtpkau.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
