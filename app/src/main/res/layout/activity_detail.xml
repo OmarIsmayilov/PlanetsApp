@@ -8,14 +8,13 @@
 
     <TextView
         android:id="@+id/planetnameTv"
-        android:layout_width="166dp"
-        android:layout_height="47dp"
+        android:layout_width="164dp"
+        android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
         android:layout_marginStart="30dp"
         android:layout_marginTop="50dp"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
         android:fontFamily="@font/acme"
         android:gravity="center"
         android:text="Uran"
